@@ -14,9 +14,9 @@ namespace Andromeda.RoverRobot
             Check.IsGreaterThan(height, 0, nameof(height));
             Check.IsGreaterThan(width, 0, nameof(width));
             
-            Size = new Size(height, width);
+            Size = new Size(width, height);
         }
-        public Size Size { get; private set; }
+        public Size Size { get; }
 
         /// <summary>
         /// Checks if the point is valid.
