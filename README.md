@@ -1,4 +1,7 @@
-# RoverRobot
+# Andromeda RoverRobot
+
+## What is Andromeda
+The Andromeda Galaxy is a barred spiral galaxy approximately 2.5 million light-years (770 kiloparsecs) from Earth and the nearest major galaxy to the Milky Way.The galaxy's name stems from the area of Earth's sky in which it appears, the constellation of Andromeda, which itself is named after the Ethiopian (or Phoenician) princess who was the wife of Perseus in Greek mythology.
 
 ## Description
 The application is a simulation of a rover moving on a square tabletop, of dimensions 5 units x 5
