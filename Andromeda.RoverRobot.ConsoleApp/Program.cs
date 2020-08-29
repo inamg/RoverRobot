@@ -47,7 +47,7 @@ namespace Andromeda.RoverRobot.ConsoleApp
             }
             catch (CommandParseException e)
             {
-                Console.WriteLine("Couldn't parse command. Please check the logs.");
+                Console.WriteLine("Couldn't parse command. Please check the logs. please see the sample input commands here https://github.com/inamg/RoverRobot#sample-input");
                 _logger.LogError(e.ToString());
             }
             catch (Exception e)
@@ -57,6 +57,7 @@ namespace Andromeda.RoverRobot.ConsoleApp
             }
             finally
             {
+				Console.WriteLine("Press any key to exit");
                 Console.ReadKey();
             }
         }
