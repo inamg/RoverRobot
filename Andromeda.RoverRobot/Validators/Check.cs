@@ -22,19 +22,6 @@ namespace Andromeda.RoverRobot.Validators
             }
         }
 
-        public static void NotNullOrEmpty(IEnumerable<object> input, string name)
-        {
-            if (input == null)
-            {
-                throw new ArgumentNullException(name);
-            }
-
-            if (!input.Any())
-            {
-                throw new ArgumentException(name);
-            }
-        }
-
         public static void IsGreaterThan(int input, int minValue, string name)
         {
             if (input < minValue)

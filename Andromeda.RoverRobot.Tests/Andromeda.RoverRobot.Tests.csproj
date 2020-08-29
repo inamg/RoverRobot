@@ -14,11 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="IO\" />
-    <Folder Include="Validators\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Andromeda.RoverRobot\Andromeda.RoverRobot.csproj" />
   </ItemGroup>
 
