@@ -37,22 +37,22 @@ commands.
 either a file or from standard input.
 
 # Sample Input
-PLACE 0,0,NORTH
-MOVE
-REPORT
+PLACE 0,0,NORTH <br>
+MOVE <br>
+REPORT <br>
 
-PLACE 0,0,NORTH
-LEFT
-REPORT
+PLACE 0,0,NORTH <br>
+LEFT <br>
+REPORT <br>
 
-PLACE 1,2,EAST
-MOVE
-MOVE
-LEFT
-MOVE
-REPORT
+PLACE 1,2,EAST <br>
+MOVE <br>
+MOVE <br>
+LEFT <br>
+MOVE <br>
+REPORT <br>
 
 # Sample Output
-0,1,NORTH
-0,0,WEST
-3,3,NORTH
+0,1,NORTH <br>
+0,0,WEST <br>
+3,3,NORTH <br>
