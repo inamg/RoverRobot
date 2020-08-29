@@ -32,3 +32,4 @@ packages/
 .vscode/
 *.swp
 __pycache__
+.idea/
