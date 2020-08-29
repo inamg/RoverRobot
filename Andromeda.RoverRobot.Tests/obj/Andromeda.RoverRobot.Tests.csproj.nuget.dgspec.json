@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\mylab\\RoverRobot\\Andromeda.RoverRobot.Tests\\Andromeda.RoverRobot.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\mylab\\RoverRobot\\Andromeda.RoverRobot.Tests\\Andromeda.RoverRobot.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\mylab\\RoverRobot\\Andromeda.RoverRobot.Tests\\Andromeda.RoverRobot.Tests.csproj",
+        "projectName": "Andromeda.RoverRobot.Tests",
+        "projectPath": "C:\\mylab\\RoverRobot\\Andromeda.RoverRobot.Tests\\Andromeda.RoverRobot.Tests.csproj",
+        "packagesPath": "C:\\Users\\inam.gull\\.nuget\\packages\\",
+        "outputPath": "C:\\mylab\\RoverRobot\\Andromeda.RoverRobot.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\inam.gull\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://ansarada.myget.org/F/ansarada-private/auth/5188fce9-8521-4f71-b161-07661def4605/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\mylab\\RoverRobot\\Andromeda.RoverRobot\\Andromeda.RoverRobot.csproj": {
+                "projectPath": "C:\\mylab\\RoverRobot\\Andromeda.RoverRobot\\Andromeda.RoverRobot.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.8.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\mylab\\RoverRobot\\Andromeda.RoverRobot\\Andromeda.RoverRobot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\mylab\\RoverRobot\\Andromeda.RoverRobot\\Andromeda.RoverRobot.csproj",
+        "projectName": "Andromeda.RoverRobot",
+        "projectPath": "C:\\mylab\\RoverRobot\\Andromeda.RoverRobot\\Andromeda.RoverRobot.csproj",
+        "packagesPath": "C:\\Users\\inam.gull\\.nuget\\packages\\",
+        "outputPath": "C:\\mylab\\RoverRobot\\Andromeda.RoverRobot\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\inam.gull\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://ansarada.myget.org/F/ansarada-private/auth/5188fce9-8521-4f71-b161-07661def4605/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
