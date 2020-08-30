@@ -57,7 +57,7 @@ namespace Andromeda.RoverRobot.ConsoleApp
             }
             finally
             {
-				Console.WriteLine("Press any key to exit");
+		Console.WriteLine("Press any key to exit");
                 Console.ReadKey();
             }
         }
